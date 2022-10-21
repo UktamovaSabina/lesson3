@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    background-color: white;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 1920px;
+    padding: 50px 301px 334px 301px;
+    text-align: center;
+    background: #FFD845;
+}
+
+.big-heart {
+    position: absolute;
+    top: 50px;
+    right: 301px;
+}
+
+/* SIDE-BAR */
+
+.side-bar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+}
+
+.arrow-right {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.side-bar-list li {
+    margin-top: 50px;
+}
+
+.hover-place:hover .side-bar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: auto;
+    width: 536px;
+    padding: 50px 115px 50px 114px;
+    background-color:#FFEDA9;
+    border: 2px solid black;
+    text-align: center;
+    gap: 50px;
+    z-index: 10;
+}
+
+.side-bar-list li:hover {
+    box-shadow: 4px 4px 3px 3px #ffa9a9a2;
+
+}
+
+/* BUTTONS */
+
+.buttons {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 70px;
+    gap: 35px;
+    justify-content: center;
+}
+
+.buttons li {
+    border: 2px solid black;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.gross {
+    display: flex;
+    width: 260px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 81px 16px 82px;
+}
+
+.search {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 30px 16px 29px;
+}
+
+.aa-zz {
+    display: flex;
+    width: 260px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 80px 16px 80px;
+}
+
+.button {
+    padding: 16px 64px 16px 64px;
+}
+
+/* OPTIONS */
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.option-dragon {
+    width: 307px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.li__dragon-img {
+    padding: 30px 75px 75px 68px;
+    border-bottom: 2px solid black;
+}
+
+.li__info {
+    position: relative;
+    padding: 20px 30px 37px 30px;
+    text-align: left;
+}
+
+.small-heart {
+    position: absolute;
+    top: 21px;
+    right: 30px;
+}
+
+.li__info h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.li__info p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 5px;
+}
+
+.li__info__list {
+    display: flex;
+    gap: 30px;
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
